@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="osoby.xsl"?>
+<people>
+	<person Plec="K">
+		<name>Anna Nowak</name>
+		<birth>10-10-1995</birth>
+		<height MetricType="m">1,65</height>
+		<email>anna@tlen.pl</email>
+		<phones>
+			<phone type="telefon">192-392-932</phone>
+			<phone type="dom">294-245-221</phone>
+		</phones>
+	</person>
+	<person Plec="K">
+		<name>Maria Kowalska</name>
+		<birth>02-10-1991</birth>
+		<height MetricType="m">1,67</height>
+		<email>ani@gg.pl</email>
+		<phones>
+			<phone type="telefon">193-392-932</phone>
+		</phones>
+	</person>
+	<person Plec="K">
+		<name>Katarzyna Wiśniewska</name>
+		<birth>10-05-1992</birth>
+		<height MetricType="m">1,90</height>
+		<email>eas@tak.pl</email>
+		<phones>
+			<phone type="telefon">292-392-932</phone>
+		</phones>
+	</person>
+	<person Plec="K">
+		<name>Małgorzata Dąbrowska</name>
+		<birth>10-10-1975</birth>
+		<height MetricType="m">1,80</height>
+		<email>rea@nie.com</email>
+		<phones>
+			<phone type="telefon">192-332-932</phone>
+		</phones>
+	</person>
+	<person Plec="K">
+		<name>Agnieszka Lewandowska</name>
+		<birth>10-10-1985</birth>
+		<height MetricType="m">1,70</height>
+		<email>aga@lal.com</email>
+		<phones>
+			<phone type="telefon">192-392-332</phone>
+		</phones>
+	</person>
+	<person Plec="K">
+		<name>Krystyna Wójcik</name>
+		<birth>10-10-1975</birth>
+		<height MetricType="m">1,65</height>
+		<email>test@mm.com</email>
+		<phones>
+			<phone type="telefon">132-392-932</phone>
+		</phones>
+	</person>
+	<person Plec="K">
+		<name>Barbara Wójcik</name>
+		<birth>10-10-1965</birth>
+		<height MetricType="m">1,90</height>
+		<email>wic@gmail.com</email>
+		<phones>
+			<phone type="telefon">292-392-932</phone>
+		</phones>
+	</person>
+	<person Plec="K">
+		<name>Ewa Kamińska</name>
+		<birth>10-11-1995</birth>
+		<height MetricType="m">1,75</height>
+		<email>dkaewa@re.com</email>
+		<phones>
+			<phone type="telefon">392-392-932</phone>
+		</phones>
+	</person>
+	<person Plec="K">
+		<name>Elżbieta Zielińska</name>
+		<birth>10-12-1995</birth>
+		<height MetricType="m">1,80</height>
+		<email>feok@gm.com</email>
+		<phones>
+			<phone type="telefon">192-395-932</phone>
+		</phones>
+	</person>
+	<person Plec="K">
+		<name>Zofia Woźniak</name>
+		<birth>10-10-1995</birth>
+		<height MetricType="m">1,60</height>
+		<email>fast@gmail.com</email>
+		<phones>
+			<phone type="telefon">192-392-933</phone>
+		</phones>
+	</person>
+</people>

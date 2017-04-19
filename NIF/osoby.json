@@ -1,0 +1,168 @@
+[
+  {
+	"plec": "K",
+	"name": "Anna Nowak",
+	"birth": "10-10-1995",
+	"height": {
+	  "MetricType": "m",
+	  "text": "1,65"
+	},
+	"email": "anna@tlen.pl",
+	"phones": {
+	  "phone": [
+		{
+		  "type": "telefon",
+		  "text": "192-392-932"
+		},
+		{
+		  "type": "dom",
+		  "text": "294-245-221"
+		}
+	  ]
+	}
+  },
+  {
+	"plec": "K",
+	"name": "Maria Kowalska",
+	"birth": "02-10-1991",
+	"height": {
+	  "MetricType": "m",
+	  "text": "1,67"
+	},
+	"email": "ani@gg.pl",
+	"phones": {
+	  "phone": {
+		"type": "telefon",
+		"text": "193-392-932"
+	  }
+	}
+  },
+  {
+	"plec": "K",
+	"name": "Katarzyna Wiśniewska",
+	"birth": "10-05-1992",
+	"height": {
+	  "MetricType": "m",
+	  "text": "1,90"
+	},
+	"email": "eas@tak.pl",
+	"phones": {
+	  "phone": {
+		"type": "telefon",
+		"text": "292-392-932"
+	  }
+	}
+  },
+  {
+	"plec": "K",
+	"name": "Małgorzata Dąbrowska",
+	"birth": "10-10-1975",
+	"height": {
+	  "MetricType": "m",
+	  "text": "1,80"
+	},
+	"email": "rea@nie.com",
+	"phones": {
+	  "phone": {
+		"type": "telefon",
+		"text": "192-332-932"
+	  }
+	}
+  },
+  {
+	"plec": "K",
+	"name": "Agnieszka Lewandowska",
+	"birth": "10-10-1985",
+	"height": {
+	  "MetricType": "m",
+	  "text": "1,70"
+	},
+	"email": "aga@lal.com",
+	"phones": {
+	  "phone": {
+		"type": "telefon",
+		"text": "192-392-332"
+	  }
+	}
+  },
+  {
+	"plec": "K",
+	"name": "Krystyna Wójcik",
+	"birth": "10-10-1975",
+	"height": {
+	  "MetricType": "m",
+	  "text": "1,65"
+	},
+	"email": "test@mm.com",
+	"phones": {
+	  "phone": {
+		"type": "telefon",
+		"text": "132-392-932"
+	  }
+	}
+  },
+  {
+	"plec": "K",
+	"name": "Barbara Wójcik",
+	"birth": "10-10-1965",
+	"height": {
+	  "MetricType": "m",
+	  "text": "1,90"
+	},
+	"email": "wic@gmail.com",
+	"phones": {
+	  "phone": {
+		"type": "telefon",
+		"text": "292-392-932"
+	  }
+	}
+  },
+  {
+	"plec": "K",
+	"name": "Ewa Kamińska",
+	"birth": "10-11-1995",
+	"height": {
+	  "MetricType": "m",
+	  "text": "1,75"
+	},
+	"email": "dkaewa@re.com",
+	"phones": {
+	  "phone": {
+		"type": "telefon",
+		"text": "392-392-932"
+	  }
+	}
+  },
+  {
+	"plec": "K",
+	"name": "Elżbieta Zielińska",
+	"birth": "10-12-1995",
+	"height": {
+	  "MetricType": "m",
+	  "text": "1,80"
+	},
+	"email": "feok@gm.com",
+	"phones": {
+	  "phone": {
+		"type": "telefon",
+		"text": "192-395-932"
+	  }
+	}
+  },
+  {
+	"plec": "K",
+	"name": "Zofia Woźniak",
+	"birth": "10-10-1995",
+	"height": {
+	  "MetricType": "m",
+	  "text": "1,60"
+	},
+	"email": "fast@gmail.com",
+	"phones": {
+	  "phone": {
+		"type": "telefon",
+		"text": "192-392-933"
+	  }
+	}
+  }
+]

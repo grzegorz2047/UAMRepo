@@ -1,0 +1,49 @@
+<html>
+	<head>
+	<meta charset="UTF-8">
+	</head>
+	<body>
+	<!----<button type="button" onclick="loadXMLDoc()">
+	//Show</button>---->
+	<p id="text"></p>
+	<script>
+	loadXMLDoc()
+		function loadXMLDoc() {
+		  var xmlhttp = new XMLHttpRequest();
+		  xmlhttp.onreadystatechange = function() {
+			if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+			    var myArr = JSON.parse(xmlhttp.responseText);
+			  myFunction(myArr);
+			}
+		  };
+		  xmlhttp.open("GET", "https://s416045.students.wmi.amu.edu.pl/NIF/osoby.json", true);
+		  xmlhttp.send();
+		}
+		function myFunction(arr) {
+			var out = "";
+			var i = 0;
+			var z = 0;
+			//alert(arr.length);
+			for (i = 0; i < arr.length; i++){
+				out += 'Imie: ' + arr[i].name ;
+				out += '<br>';
+				out += " Plec: " + arr[i].plec;
+				out += '<br>';
+				out += " Data urodzenia: " + arr[i].birth;
+				out += '<br>';
+				out += " Wysokosc: " + arr[i].height.text + " " + arr[i].height.MetricType;
+				out += '<br>';
+				out += " email: " + arr[i].email;
+				out += '<br>';
+				for(z = 0; arr[i].phones.length;z++){
+					out += arr[z].phones[z];
+					out += '<br>';
+				}
+				out += '<br>';
+			}
+			document.getElementById("text").innerHTML = out;
+		}
+ 
+	</script>
+	</body>
+</html>

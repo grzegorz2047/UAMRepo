@@ -1,0 +1,15 @@
+body { 
+background-color: #CCCCC;
+color: green;
+}
+.header { 
+text-align: center; 
+color: red;font-style: italic;
+}
+.field { 
+font-weight: bold;
+}
+.phones { 
+text-align: right;
+font-family: "Arial", Times, serif;
+}

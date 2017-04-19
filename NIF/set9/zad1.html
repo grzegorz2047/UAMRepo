@@ -1,0 +1,48 @@
+<html>
+	<head>
+	
+	</head>
+	<body>
+	<form onSubmit="doMath()">
+	  a <input type="number" step="any" id="a"><br>
+	  b <input type="number" step="any" id="b"><br>
+	  c <input type="number" step="any" id="c"><br>
+		<select id="options">
+			<option value="Zespolone">Zespolone</option>
+			<option value="Rzeczywiste">Rzeczywiste</option>
+		</select>
+		<input type="submit">
+		<br/>
+	</form>
+	<script>
+		function doMath() {
+			var a = document.getElementById("a").value;
+			var b = document.getElementById("b").value;
+			var c = document.getElementById("c").value;
+			var resultType = document.getElementById("options").value;	
+			var delta = b*b - 4 * (a*c);
+			if(delta < 0){
+				if(resultType == "Zespolone"){
+					var x11 =(-b)/2*a;
+					var x12 =(Math.sqrt(-delta))/2*a;
+
+					alert(" x1 = " + x11+"-" +x12 +"i," + " x2 = " + x11+"+" +x12 +"i");
+				}else{		
+					//document.getElementById("wynik").innerHTML = "Brak pierwiastkow: delta < 0";
+					alert("Brak pierwiastkow rzeczywistych");
+				}
+			}else{
+				if(delta == 0){
+					//document.getElementById("wynik").value = b/(2*a);
+					alert("x = "+(b/(2*a)));
+
+				}else{
+					var x1 =((-b) - (Math.sqrt(delta)))/2*a;
+					var x2 =((-b) + (Math.sqrt(delta)))/2*a;
+					alert(" x1 = " + x1 +",  x2 = "+ x2);
+				}
+			}
+		}
+	</script>
+	</body>
+</html>

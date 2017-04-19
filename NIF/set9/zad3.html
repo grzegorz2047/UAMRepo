@@ -1,0 +1,54 @@
+<html>
+	<head>
+	
+	</head>
+	<body>
+	<!----<button type="button" onclick="loadXMLDoc()">
+	//Show</button>---->
+	<p id="text"></p>
+	<script>
+	loadXMLDoc()
+		function loadXMLDoc() {
+		  var xmlhttp = new XMLHttpRequest();
+		  xmlhttp.onreadystatechange = function() {
+			if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+			  myFunction(xmlhttp);
+			}
+		  };
+		  xmlhttp.open("GET", "https://s416045.students.wmi.amu.edu.pl/NIF/books.xml", true);
+		  xmlhttp.send();
+		}
+		function myFunction(xml) {
+			var x, z, i, xmlDoc, txt;
+			xmlDoc = xml.responseXML;
+			txt = "";
+			var cars = ["author", "title", "genre", "price", "publish_date"];
+			clen = cars.length;
+			//i=0;
+			
+			
+			//txt += x[z].childNodes[0].nodeValue + "<br> ";
+			//for(i = 0; i < clen; i++){
+				x = xmlDoc.getElementsByTagName("book");
+				//alert(x.length);
+				for (i = 0; i < x.length ;i++) {
+					for(z =0; z <clen;z++){
+						for(y = 0; y <x[i].getElementsByTagName(cars[z]).length;y++){
+							txt += x[i].getElementsByTagName(cars[z])[y].childNodes[0].nodeValue + "<br>";
+						}
+					}
+					txt+="<br>"
+				}
+			//}
+
+
+					//x = xmlDoc.getElementsByTagName(cars[i]);		
+			  document.getElementById("text").innerHTML = txt;
+		}
+			//	for (i = 0; i < clen; i++) {
+			//	txt += x[i].childNodes[0].nodeValue + " ";
+			//		
+			//	}
+	</script>
+	</body>
+</html>

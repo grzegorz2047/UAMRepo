@@ -1,0 +1,10 @@
+Anna Nowak;10-10-1995;K;1,65;anna@tlen.pl;telefon:192-392-932,dom:294-245-221;
+Maria Kowalska;02-10-1991;K;1,67;ani@gg.pl;telefon:193-392-932;
+Katarzyna Wiœniewska;10-05-1992;K;1,90;eas@tak.pl;telefon:292-392-932;
+Ma³gorzata D¹browska;10-10-1975;K;1,80;rea@nie.com;telefon:192-332-932;
+Agnieszka Lewandowska;10-10-1985;K;1,70;aga@lal.com;telefon:192-392-332;
+Krystyna Wójcik;10-10-1975;K;1,65;test@mm.com;telefon:132-392-932;
+Barbara Wójcik;10-10-1965;K;1,90;wic@gmail.com;telefon:292-392-932;
+Ewa Kamiñska;10-11-1995;K;1,75;dkaewa@re.com;telefon:392-392-932;
+El¿bieta Zieliñska;10-12-1995;K;1,80;feok@gm.com;telefon:192-395-932;
+Zofia WoŸniak;10-10-1995;K;1,60;fast@gmail.com;telefon:192-392-933;

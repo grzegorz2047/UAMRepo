@@ -1,0 +1,106 @@
+==== Kodowanie polskich liter
+
+{\rtf1\ansi\ansicpg1250\deff0\deflang1045{\fonttbl{\f0\fnil\fcharset238 Calibri;}{\f1\fnil\fcharset0 Calibri;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\sa200\sl276\slmult1\f0\fs22 Ala ma kota\par
+Kot ma Al\'ea\lang1033\f1\par
+Kot ma Alê\par
+}
+
+==== Przyk³ad definiowania styli (równiez justyfikacja - wyrównanie)
+
+{\rtf1
+
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;
+\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;
+\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;
+\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;
+\caccentone\ctint255\cshade191\red174\green150\blue56;}
+
+{\stylesheet{\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\snext0 Normalna;}
+
+{\*\cs10 \additive DefaultParagraphFont;}
+
+{\*\cs15 \additive \b\ul\cf6 \sbasedon10 UNDERLINE;} 
+
+{\s16\qc \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \b\fs24\cf2\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext16 \sautoupd CENTER;}}
+
+\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {This is the Normal Style \par }
+\pard \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\par }
+\pard\plain \s16\qc \li0\ri0\widctlpar\aspalpha\aspnum\faauto\outlinelevel0\adjustright
+\rin0\lin0\itap0 \b\fs24\cf2\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+{This is a centered paragraph with blue, bold font. I call the style CENTER.\par }
+\pard\plain
+ \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\par The word \'93}{\cs15\b\ul\cf6 style}
+{\'94 is red and underlined. I used a style I called UNDERLINE.\par }
+}
+
+===Przyk³ad ustawienia parametrów stron i wielkoœci fontu
+
+{\rtf1\ansi\deff0 {\fonttbl {\f0 Courier;}}
+{\colortbl;\red0\green0\blue0;\red255\green0\blue0;}
+\landscape
+\paperw15840\paperh12240\margl720\margr720\margt720\margb720
+\tx720\tx1440\tx2880\tx5760
+This line is the default color\line
+\tab this line has 1 tab\line
+\tab\tab this line has 2 tabs\line
+\tab\tab\tab this line has 3 tabs\line
+\tab\tab\tab\tab this line has 4 tabs\line
+\cf2
+\tab This line is red and has a tab before it\line
+\cf1
+\page
+\par\pard\tx1440\tx2880
+This line is the default color and the first line on page 2\line
+\tab\tab This is the second tab on the second line on the second page\line
+\page
+\par\pard
+This is the third page with formatting examples\line
+\fs30 First line with 15 point text\line
+\fs20 Second line with 10 point test\line
+\i Italics on \i0 Italics off\line
+\b Bold on \b0 Bold off\line
+\scaps Small Caps On \scaps0 Small Caps Off\line
+\strike Stike through on \strike0 Strike Off\line
+\caps All Capitals On \caps0 All Capitals Off\line
+\outl Outline on \outl0 Outline Off\line
+\ul Underline on \ul0 Underline Off\line
+\uldb Double Underline on \ul0 Double Underline Off\line
+\ulth Thick Underline on \ul0 Thick Underline Off\line
+\ulw Underline words only on \ul0 Underline words only off\line
+\ulwave Wave Underline on \ul0 Wave underline off\line
+\uld Dotted Underline on \ul0 Dotted underline off\line
+\uldash Dash Underline on \ul0 Dash underline off\line
+\uldashd Dot Dash Underline on \ul0 Dot Dash underline off\line
+}
+
+=== Tabelki
+
+{\rtf1\ansi\deff0
+\trowd\trgaph144
+\clbrdrt\brdrs\clbrdrl\brdrs\clbrdrb\brdrs\clbrdrr\brdrs
+\cellx1000
+\clbrdrt\brdrs\clbrdrl\brdrs\clbrdrb\brdrs\clbrdrr\brdrs
+\cellx2000
+\clbrdrt\brdrs\clbrdrl\brdrs\clbrdrb\brdrs\clbrdrr\brdrs
+\cellx3000
+cell 1\intbl\cell
+lots of text in cell two\intbl\cell
+cell 3\intbl\cell
+\row
+\trowd\trgaph144
+\clbrdrt\brdrs\clbrdrl\brdrs\clbrdrb\brdrs\clbrdrr\brdrs
+\cellx1000
+\clbrdrt\brdrs\clbrdrl\brdrs\clbrdrb\brdrs\clbrdrr\brdrs
+\cellx2000
+\clbrdrt\brdrs\clbrdrl\brdrs\clbrdrb\brdrs\clbrdrr\brdrs
+\cellx3000
+row 2 cell 1\intbl\cell
+lots of text in row 2 cell two\intbl\cell
+row 2 cell 3\intbl\cell
+\row
+}
